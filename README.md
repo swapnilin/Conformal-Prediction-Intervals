@@ -31,10 +31,10 @@ Interval Construction: For a new prediction, the model uses the nonconformity sc
 
 **Applications:**
 
-Time Series Forecasting: Providing reliable intervals for future predictions.
+1. Time Series Forecasting: Providing reliable intervals for future predictions.
 
-Medical Diagnosis: Quantifying uncertainty in predictive models for patient outcomes.
+2. Medical Diagnosis: Quantifying uncertainty in predictive models for patient outcomes.
 
-Finance: Estimating the range of possible future stock prices or risk metrics.
+3. Finance: Estimating the range of possible future stock prices or risk metrics.
 
 Conformal prediction intervals are a robust and interpretable tool to enhance trust and reliability in predictive modeling, making them a valuable addition to any data scientist’s toolkit.
