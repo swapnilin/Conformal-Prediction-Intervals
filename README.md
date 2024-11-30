@@ -24,9 +24,9 @@ For a new prediction, the model uses the nonconformity scores to create a predic
 
 **Advantages:**
 
-Flexibility: Works with any model and doesn't require specific assumptions about the data distribution.
-Guaranteed Coverage: Ensures the desired coverage rate (e.g., 95%) under mild assumptions.
-Adaptive Intervals: The intervals reflect the model's uncertainty, becoming wider for uncertain predictions and narrower for confident ones.
+* Flexibility: Works with any model and doesn't require specific assumptions about the data distribution.
+* Guaranteed Coverage: Ensures the desired coverage rate (e.g., 95%) under mild assumptions.
+* Adaptive Intervals: The intervals reflect the model's uncertainty, becoming wider for uncertain predictions and narrower for confident ones.
 
 **Applications:**
 
