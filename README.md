@@ -15,13 +15,13 @@ It uses the model’s errors on past data (calibration data) to determine the wi
 
 Train-Test Split:
 
-The dataset is split into two parts: Training Data: To train the model.
-Calibration Data: To measure prediction errors and calculate intervals.
+The dataset is split into two parts: 
+* Training Data: To train the model.
+* Calibration Data: To measure prediction errors and calculate intervals.
 
-Nonconformity Score:
-For each calibration data point, the "nonconformity score" is computed. This score measures how far the true value deviates from the model's prediction.
-Interval Construction:
-For a new prediction, the model uses the nonconformity scores to create a prediction interval. The interval is chosen such that it covers the desired percentage of possible outcomes.
+Nonconformity Score: For each calibration data point, the "nonconformity score" is computed. This score measures how far the true value deviates from the model's prediction.
+
+Interval Construction: For a new prediction, the model uses the nonconformity scores to create a prediction interval. The interval is chosen such that it covers the desired percentage of possible outcomes.
 
 **Advantages:**
 
